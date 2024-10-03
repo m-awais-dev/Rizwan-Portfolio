@@ -1,10 +1,27 @@
-import { awais, salman, crud , invozone, fiverivers} from "../../Assets/Images";
+import { awais, salman, crud, netsol, fiverivers, thirtynorth } from "../../Assets/Images";
+import {
+  IconBrandGithub,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconBrandFacebook,
+} from "@tabler/icons-react";
 
 export const Info = {
-  name: "Muhammad Awais",
-  stack: ["Web Developer", "Front-end-Developer", "React UI Developer"],
-  bio: "A highly experienced Mid Level Frontend Developer with 1 year of expertise in developing user-friendly, adaptive and responsive websites with optimized cross-browser compatibility and runtime performance. Spearheaded projects to strengthen the brand by creating engaging web layouts for destination websites.",
+  name: "Rizwan Ashraf",
+  stack: ["Web Developer", "Micro frontend", "Senior Software Engineer"],
+  bio: "Currently, I am working at Netsol as a Senior Software Engineer. I have working experience in reactjs , laravel and vuejs. I also have working knowledge of aws (ec2, quicksight, athena, crawler, s3), cpanels, mongodb, mysql, firebase, keycloak, nodejs, expressjs, typescript, mobx, redux and contextapi.",
 };
+
+export const socialLinks = [
+  { link: "https://github.com/", icon: IconBrandGithub },
+  {
+    link: "https://www.linkedin.com/",icon: IconBrandLinkedin,
+  },
+  { link: "https://www.instagram.com/c", icon: IconBrandInstagram },
+  {
+    link: "https://www.Facebook.com/", icon: IconBrandFacebook,
+  },
+];
 
 export const ProjectInfo = [
   {
@@ -14,7 +31,7 @@ export const ProjectInfo = [
     live: true,
     technologies: ["Android", "Kotlin", "RoomDB"],
     link: "https://m-awais-dev.netlify.app/",
-    // github: "https://github.com/tushant-akar/Password-Manager/"
+    github: "https://github.com/"
   },
   {
     title: "Portfolio Website",
@@ -23,7 +40,7 @@ export const ProjectInfo = [
     live: true,
     technologies: ["React", "Springboot", "MongoDB"],
     link: "salman-sarwar.netlify.app",
-    // github: "https://github.com/Code-Mars/Facebook-Clone"
+    github: "https://github.com/"
   },
   {
     title: "Crud Operation",
@@ -32,67 +49,112 @@ export const ProjectInfo = [
     live: true,
     technologies: ["React", "Tailwind", "Firebase"],
     link: "https://crud-operation-awais.netlify.app/",
-    // github: "https://github.com/Code-Mars/Spotify-Clone"
+    github: "https://github.com/"
   },
 ];
 
-
 export const SkillInfo = [
-    {
-        title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS","GSAP", "Material UI", "Bootstrap" 
-        ]
-    },
-    {
-        title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
-    },
-    {
-        title: "Languages",
-        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
-    },
-    {
-        title: "Tools",
-        skills: ["Git", "Github", "VS Code","Postman", "MongoDB Compass", "Spring Tool Suite"]
-    }
-]
-
-
+  {
+    title: "Frontend",
+    skills: [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "React JS",
+      "Angular",
+      "Redux",
+      "Tailwind CSS",
+      "GSAP",
+      "Material UI",
+      "Bootstrap",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      "Springboot",
+      "Node JS",
+      "Express JS",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "PostgresSQL",
+    ],
+  },
+  {
+    title: "Languages",
+    skills: ["C", "C++", "Java", "JavaScript", "TypeScript"],
+  },
+  {
+    title: "Tools",
+    skills: [
+      "Git",
+      "Github",
+      "VS Code",
+      "Postman",
+      "MongoDB Compass",
+      "Spring Tool Suite",
+    ],
+  },
+];
 
 export const ExperienceInfo = [
+  {
+    role: "Senior Software Engineer",
+    image: netsol,
+    company: "NETSOL Technologies Inc. ",
+    date: "Nov 2022 - Present",
+    desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+    skills: [
+      "React JS",
+      "Vue JS",
+      "Laravel",
+      "PHP",
+      "Java",
+      "HTML",
+      "JavaScript",
+      "React Native"
+    ],
+  },
   {
     role: "Software Engineer",
     image: fiverivers,
     company: "Fiverivers Technologies",
-    date: "Oct 2023 - Present",
+    date: "Dec 2021 - Nov 2022",
     desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
     skills: [
-      "Springboot",
       "React JS",
-      "Angular",
-      "Node JS",
-      "MySQL",
-      "MongoDB",
-      "Microservices",
+      "Vue JS",
+      "Laravel",
+      "PHP",
+      "Java",
+      "HTML",
+      "JavaScript",
+      "React Native"
     ],
   },
   {
-    role: "React Developer",
-    image: invozone,
-    company: "InvoZone",
-    date: "Nov 2022 - Sep 2023",
-    desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
+    role: "Web Developer",
+    image: thirtynorth,
+    company: "ThirtyNorth Dev",
+    date: "May 2018 - July 2021",
+    desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
     skills: [
+      "React JS",
+      "Vue JS",
+      "Laravel",
+      "PHP",
       "Java",
-      "MySQL",
-      "Hibernate",
-      "Selenium",
-      "Jenkins",
-      "JIRA",
-      "Automation Testing",
+      "HTML",
+      "JavaScript",
+      "React Native"
     ],
   },
 ];
+
+
+
 export const Slugs = [
   "typescript",
   "spring",

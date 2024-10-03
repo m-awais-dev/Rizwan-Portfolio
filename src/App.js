@@ -4,6 +4,7 @@ import '@mantine/core/styles.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { MantineProvider , createTheme} from '@mantine/core';
+import { pdfjs } from 'react-pdf';
 import Navbar from './components/Navbar';
 import Email from './components/Email';
 import Social from './components/Social';
@@ -14,7 +15,11 @@ import Experience from './components/Experience';
 import Contact from './components/Contact'
 import { Loader } from './components/Loader';
 import Footer from './components/Footer';
+
+
 function App() {
+  pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+
   useEffect(()=>{
     AOS.init();
     AOS.refresh();

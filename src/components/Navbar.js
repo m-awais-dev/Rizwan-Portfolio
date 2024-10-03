@@ -26,9 +26,7 @@ const Navbar = () => {
   const isMobile = useMediaQuery(`(max-width: ${em(476)})`);
   return (
     <nav
-      className={`flex ${
-        show ? "translate-y-0" : "-translate-y-28"
-      } ${shadow?"shadow-[0_10px_30px_-10px_#020c1b]": ""} fixed w-full z-10 bg-bgColor h-28 mt-[-115px] px-10 transition-transform duration-500 ease-in-out justify-between items-center xs-mx:px-4 xs-mx:h-20 `}
+      className={`flex fixed top-0 ${show?"translate-y-0":"-translate-y-28"} ${shadow?"shadow-[0px_10px_30px_-10px_#020c1b]":""} transition-transform duration-500 ease-in-out  w-full z-10 bg-bgColor h-28  px-10 justify-between items-center xs-mx:px-4 xs-mx:h-20 `}
     >
       <IconHexagonLetterR
         className="z-10"

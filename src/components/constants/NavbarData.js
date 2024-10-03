@@ -5,7 +5,7 @@ const navLinks = (col) => {
       <a
         key={index}
         className={`${
-          col ? "flex flex-col items-center" : ""
+          col ? "flex flex-col items-center mt-4" : ""
         } text-textColor text-lg font-mono hover:text-primaryColor`}
         href={`#${link}`}
       >

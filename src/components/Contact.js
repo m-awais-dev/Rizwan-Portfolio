@@ -3,7 +3,6 @@ import FloatingInput from "./FloatingInput";
 import { Button, useMatches } from "@mantine/core";
 import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 
-
 const Contact = () => {
   const form = {
     name: "",
@@ -14,11 +13,11 @@ const Contact = () => {
 
   const [formData, setFormData] = useState(form);
   const btn = useMatches({
-    xsm:'xs',
-    sm:"sm",
-    md:"md",
-    lg:"lg"   
-  })
+    xsm: "xs",
+    sm: "sm",
+    md: "md",
+    lg: "lg",
+  });
 
   const handleChange = (id, value) => {
     setFormData({ ...formData, [id]: value });
@@ -26,11 +25,11 @@ const Contact = () => {
 
   return (
     <div
-      className="px-16 md-mx:px-8 sm-mx:px-4 mx-10 my-20 lg-mx:mx-10 md-mx:mx-0 font-mono"
-      id="contacts"
+      className="px-16 md-mx:px-8 sm-mx:px-4 mx-20 lg-mx:mx-10 md-mx:mx-0   my-10  font-mono"
+      id="Contact"
     >
-      <h1 className="text-4xl text-center mb-10 font-bold sm-mx:text3xl xs-mx:text-xl text-white">
-        Contact
+      <h1 className="text-4xl  sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white">
+        <span className="text-primaryColor">05.&nbsp;</span>Contact
       </h1>
       <div
         data-aos="flip-left"
