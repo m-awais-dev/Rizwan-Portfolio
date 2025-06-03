@@ -7,7 +7,7 @@ import {
 } from "@tabler/icons-react";
 
 export const Info = {
-  name: "Rizwan Ashraf",
+  name: "Muhammad Awais",
   stack: ["Web Developer", "Micro frontend", "Senior Software Engineer"],
   bio: "Currently, I am working at Netsol as a Senior Software Engineer. I have working experience in reactjs , laravel and vuejs. I also have working knowledge of aws (ec2, quicksight, athena, crawler, s3), cpanels, mongodb, mysql, firebase, keycloak, nodejs, expressjs, typescript, mobx, redux and contextapi.",
 };
